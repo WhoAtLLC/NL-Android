@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.root.wishlist">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.MEDIA_CONTENT_CONTROL" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES" />
+    <uses-permission android:name="android.permission.READ_USER_DICTIONARY"/>
+    <application
+        android:allowBackup="true"
+        android:allowClearUserData="true"
+        android:fullBackupContent="true"
+        android:icon="@drawable/nl_new_logo"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:screenOrientation="landscape"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity android:name=".activities.more.ManageGroupsActivity"
+            android:theme="@style/AppTheme.NoActionBar"
+            >
+
+
+        </activity>
+        <activity
+            android:name=".activities.ChangeServerActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.myaccount.ProfileEditActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.SplashActivity"
+            android:theme="@style/Theme.Transparent"
+            android:windowSoftInputMode="stateAlwaysHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="http://www.wishlist.operislabs.com"
+                    android:scheme="http" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activities.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".activities.LandingActivity" />
+        <activity
+            android:name=".activities.registration.RegistrationActivity"
+            android:windowSoftInputMode="stateAlwaysVisible" />
+        <activity
+            android:name=".activities.registration.RegistrationUserDetailsActivity"
+            android:windowSoftInputMode="stateAlwaysVisible" />
+        <activity
+            android:name=".activities.myaccount.PublicProfileEditActivity"
+            android:label="@string/title_activity_public_profile_edit"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".activities.myaccount.PrivateprofileEditActivity"
+            android:label="@string/title_activity_privateprofile_edit"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".activities.registration.RegisterationUploadContact" />
+        <activity
+            android:name=".activities.registration.YourBusinessInterest"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="adjustPan" />
+        <activity android:name=".activities.registration.OpenOrPrivateNetwork" />
+        <activity
+            android:name=".activities.LoginActivity"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity android:name=".activities.ForgetPassword" />
+        <activity
+            android:name=".activities.LeadsActivity"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="adjustNothing" />
+        <activity
+            android:name=".activities.MyAccountActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.NotificationActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.leads.PublicprofileActivity"
+            android:label="@string/title_activity_publicprofile"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.leads.PrivateProfileActivity"
+            android:label="@string/title_activity_private_profile"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".activities.MoreActivity" />
+        <activity
+            android:name=".activities.more.NewLeadSheetActivity"
+            android:label="@string/title_activity_new_lead_sheet"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.PrivacyPolicyActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.leads.LeadsYourConnectionAtActivity"
+            android:label="@string/title_activity_leads_your_connection_at"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity android:name=".activities.leads.LeadsYourConnectionDetails" />
+        <activity
+            android:name=".activities.leads.MemberCompanyDetailsActivity"
+            android:label="@string/title_activity_member_tab_acitvity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.leads.GetInteroduceToActivity"
+            android:label="@string/title_activity_get_interoduce_to"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.leads.MyIntroRequestActivity"
+            android:label="@string/title_activity_my_intro_request"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.more.InviteFriendsActivity"
+            android:label="@string/title_activity_invite_friends"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.notificationmodule.Wanttomeet"
+            android:label="@string/title_activity_wnattomeet"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".activities.EmailVerificationActivity" />
+        <activity
+            android:name=".activities.leads.MemberCompanyDetailsNew"
+            android:label="@string/title_activity_member_company_details_new"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".activities.VerificationScree" />
+
+        <activity android:name="com.twitter.sdk.android.core.identity.OAuthActivity" />
+
+        <activity
+            android:name=".activities.TermAndConditionActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <provider
+            android:name="com.facebook.FacebookContentProvider"
+            android:authorities="com.facebook.app.FacebookContentProvider1158962907623724"
+            android:exported="true" />
+
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+
+        <receiver
+            android:name=".searvices.broadcast.NetworkReceiver"
+            android:enabled="true"
+            android:exported="true">
+
+
+
+
+            <!--
+             <intent-filter>
+                 &lt;!&ndash;<action android:name="android.net.conn.CONNECTIVITY_CHANGE" />&ndash;&gt;
+             </intent-filter>
+            -->
+        </receiver>
+
+        <service
+            android:name=".fcm.WishlistMessagingService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <service
+            android:name=".fcm.WishlistFCMService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+
+        <activity android:name=".activities.leads.SMSActivity" />
+        <!--
+            <service
+            android:name=".searvices.ContactFetchSearvice"
+            android:enabled="true"
+            android:exported="true" />
+        -->
+        <service
+            android:name=".searvices.MyService"
+            android:enabled="true" />
+    </application>
+
+</manifest>

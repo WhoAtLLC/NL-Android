@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/transparent"
+    android:orientation="vertical">
+    <CheckBox
+        android:id="@+id/selectedServerCb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10dp"/>
+    <TextView
+        android:id="@+id/serverInfoTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="15dp"
+        android:layout_toLeftOf="@+id/selectedServerCb"
+        android:layout_marginTop="10dp"
+        android:text="dkxls"
+        android:textColor="#444444"
+        android:textAppearance="?android:textAppearanceSmall"/>
+
+    <TextView
+        android:id="@+id/serverUrlTv"
+        android:layout_below="@+id/serverInfoTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="dkljsg"
+        android:layout_marginHorizontal="15dp"
+        android:layout_toLeftOf="@+id/selectedServerCb"
+        android:layout_marginTop="5dp"
+        android:textColor="#666363"
+        android:textAppearance="?android:textAppearanceSmall" />
+    <View
+        android:layout_below="@+id/serverUrlTv"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#666363"
+        android:layout_marginTop="5dp"/>
+
+
+</RelativeLayout>

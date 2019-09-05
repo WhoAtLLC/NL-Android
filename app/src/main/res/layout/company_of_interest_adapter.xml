@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingBottom="10dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp"
+        android:weightSum="3">
+
+        <com.root.wishlist.util.SquareImageView
+            android:id="@+id/company_image"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_weight=".2"
+            android:background="@drawable/image_border"
+            android:padding="1dp"
+            android:src="@drawable/wish" />
+
+        <TextView
+            android:id="@+id/company_name"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2.6"
+            android:gravity="center|left"
+            android:paddingLeft="10dp"
+            android:textSize="16sp" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".2">
+
+            <TextView
+                android:id="@+id/unselect_image"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:background="@drawable/circle"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp" />
+
+        </LinearLayout>
+
+        <!-- <CheckBox
+             android:id="@+id/company_select"
+             android:layout_width="0dp"
+             android:layout_height="wrap_content"
+             android:layout_weight=".4"
+             android:button="@drawable/checkbox"
+             android:checked="false"
+             android:focusable="false"
+             android:gravity="right" />-->
+
+    </LinearLayout>
+
+</LinearLayout>

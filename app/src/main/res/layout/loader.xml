@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:lv="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    android:orientation="vertical">
+
+    <ProgressBar
+        android:id="@+id/progressbar"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:indeterminateTint="@color/colorPrimary"
+        android:indeterminateTintMode="multiply"
+        android:indeterminate="true"
+        android:background="@android:color/transparent" />
+    <!--   <me.wangyuwei.loadingview.LoadingView
+           android:id="@+id/loading_view"
+           android:layout_width="match_parent"
+           android:layout_height="350dp"
+           lv:lv_duration="10"
+           lv:lv_end_color="@color/appColor"
+           lv:lv_external_radius="50dp"
+           lv:lv_internal_radius="5dp"
+           lv:lv_start_color="@color/appColor"
+           />-->
+
+</RelativeLayout>

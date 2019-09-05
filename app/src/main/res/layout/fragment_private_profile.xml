@@ -1,0 +1,261 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.root.wishlist.fragment.PrivateProfileFragment">
+
+    <!-- <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:orientation="vertical">
+
+         <TextView
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:background="@color/appColor"
+             android:gravity="center"
+             android:padding="10dp"
+             android:text="Only shared after making or accepting a request"
+             android:textColor="@android:color/white"
+             android:textSize="14sp" />
+     </LinearLayout>
+
+     <ScrollView
+         android:layout_width="match_parent"
+         android:layout_height="match_parent">
+
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:orientation="vertical">
+
+             <android.support.v7.widget.CardView
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content">
+
+
+                 <LinearLayout
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:orientation="vertical"
+                     android:paddingBottom="10dp">
+
+                     <LinearLayout
+                         android:layout_width="match_parent"
+                         android:layout_height="wrap_content"
+                         android:layout_marginTop="7dp"
+                         android:gravity="center"
+                         android:orientation="vertical">
+
+                         <android.support.v7.widget.CardView
+                             android:layout_width="match_parent"
+                             android:layout_marginRight="20dp"
+                             android:layout_marginLeft="20dp"
+                             android:layout_height="wrap_content">
+
+                             <LinearLayout
+                                 android:layout_width="match_parent"
+                                 android:layout_height="wrap_content"
+                                 android:gravity="center"
+                                 android:layout_gravity="center"
+                                 android:orientation="vertical">
+
+
+                                 <de.hdodenhof.circleimageview.CircleImageView
+                                     android:id="@+id/profile_image"
+                                     android:layout_width="80dp"
+                                     android:layout_height="80dp"
+                                     android:layout_gravity="center"
+                                     android:src="@drawable/user_profile" />
+                                 <TextView
+                                     android:id="@+id/Employee_name"
+                                     android:layout_width="match_parent"
+                                     android:layout_height="match_parent"
+                                     android:gravity="center"
+                                     android:text="Demo"
+                                     android:padding="10dp"
+                                     android:textSize="16sp"
+                                     android:textStyle="bold" />
+                             </LinearLayout>
+                         </android.support.v7.widget.CardView>
+
+                         <android.support.v7.widget.CardView
+                             android:layout_width="match_parent"
+                             android:layout_height="50dp"
+                             android:layout_marginTop="5dp"
+                             android:layout_marginLeft="20dp"
+                             android:layout_marginRight="20dp"
+                             android:layout_gravity="center"
+                             app:cardCornerRadius="5dp"
+                             app:cardElevation="2dp">
+
+                             <TextView
+                                 android:id="@+id/profile_name"
+                                 android:layout_width="match_parent"
+                                 android:layout_height="wrap_content"
+                                 android:gravity="center"
+                                 android:layout_gravity="center"
+                                 android:singleLine="false"
+                                 android:textSize="14sp" />
+
+                         </android.support.v7.widget.CardView>
+
+                         <android.support.v7.widget.CardView
+                             android:layout_width="match_parent"
+                             android:layout_height="50dp"
+                             android:layout_marginTop="5dp"
+                             android:layout_gravity="center"
+                             android:layout_marginLeft="20dp"
+                             android:layout_marginRight="20dp"
+                             app:cardCornerRadius="5dp"
+                             app:cardElevation="2dp">
+
+                             <TextView
+                                 android:id="@+id/company_name"
+                                 android:layout_width="match_parent"
+                                 android:layout_height="wrap_content"
+                                 android:gravity="center"
+                                 android:layout_gravity="center"
+                                 android:padding="5dp"
+                                 android:textSize="16sp" />
+                         </android.support.v7.widget.CardView>
+
+                         <android.support.v7.widget.CardView
+                             android:layout_width="match_parent"
+                             android:layout_height="50dp"
+                             android:layout_marginTop="5dp"
+                             android:layout_marginLeft="20dp"
+                             android:layout_marginRight="20dp"
+                             app:cardCornerRadius="5dp"
+                             app:cardElevation="2dp">
+
+                             <LinearLayout
+                                 android:layout_width="match_parent"
+                                 android:layout_height="wrap_content"
+                                 android:layout_marginTop="5dp"
+                                 android:gravity="center"
+                                 android:layout_gravity="center"
+                                 android:orientation="horizontal"
+                                 android:weightSum="3">
+
+                                 <LinearLayout
+                                     android:layout_width="0dp"
+                                     android:layout_height="wrap_content"
+                                     android:layout_weight="2.1"
+                                     android:gravity="center"
+                                     android:orientation="horizontal"
+                                     android:weightSum="2">
+
+                                     <ImageView
+                                         android:layout_width="0dp"
+                                         android:layout_height="25dp"
+                                         android:layout_weight=".2"
+                                         android:src="@drawable/phone" />
+
+                                     <TextView
+                                         android:id="@+id/employee_contact_no"
+                                         android:layout_width="0dp"
+                                         android:layout_height="match_parent"
+                                         android:layout_marginLeft="5dp"
+                                         android:layout_weight="1.5"
+                                         android:singleLine="false"
+                                         android:textSize="16sp" />
+                                 </LinearLayout>
+                             </LinearLayout>
+                         </android.support.v7.widget.CardView>
+
+                         <android.support.v7.widget.CardView
+                             android:layout_width="match_parent"
+                             android:layout_height="50dp"
+                             android:layout_marginLeft="20dp"
+                             android:layout_marginRight="20dp"
+                             android:layout_marginTop="5dp"
+                             app:cardCornerRadius="5dp"
+                             app:cardElevation="2dp">
+
+                             <LinearLayout
+                                 android:layout_width="match_parent"
+                                 android:layout_height="wrap_content"
+                                 android:layout_marginTop="5dp"
+                                 android:gravity="center"
+                                 android:layout_gravity="center"
+                                 android:orientation="horizontal"
+                                 android:weightSum="3">
+
+
+                                 <LinearLayout
+                                     android:layout_width="0dp"
+                                     android:layout_height="wrap_content"
+                                     android:layout_weight="2.1"
+                                     android:gravity="center"
+
+                                     android:orientation="horizontal"
+                                     android:weightSum="2">
+
+                                     <ImageView
+                                         android:layout_width="0dp"
+                                         android:layout_height="25dp"
+                                         android:layout_weight=".2"
+                                         android:src="@drawable/email" />
+
+                                     <TextView
+                                         android:id="@+id/employee_email"
+                                         android:layout_width="0dp"
+                                         android:layout_height="match_parent"
+                                         android:layout_marginLeft="5dp"
+                                         android:layout_weight="1.5"
+                                         android:singleLine="false"
+                                         android:textSize="16sp" />
+                                 </LinearLayout>
+                             </LinearLayout>
+                         </android.support.v7.widget.CardView>
+                         <android.support.v7.widget.CardView
+                             android:layout_width="match_parent"
+                             android:layout_height="0dp"
+                             android:layout_marginLeft="20dp"
+                             android:layout_marginRight="20dp"
+                             android:layout_marginTop="5dp"
+                             app:cardCornerRadius="5dp"
+                             app:cardElevation="2dp">
+
+                             <LinearLayout
+                                 android:layout_width="match_parent"
+                                 android:layout_height="wrap_content"
+                                 android:layout_marginLeft="10dp"
+                                 android:orientation="vertical"
+                                 android:padding="10dp"
+                                 android:visibility="gone">
+
+                                 <TextView
+                                     android:id="@+id/bio_title"
+                                     android:layout_width="wrap_content"
+                                     android:layout_height="wrap_content"
+                                     android:padding="5dp"
+                                     android:text="demo"
+                                     android:textSize="14sp"
+                                     android:textStyle="bold" />
+
+                                 <TextView
+                                     android:id="@+id/bio_decsription"
+                                     android:layout_width="match_parent"
+                                     android:layout_height="wrap_content"
+                                     android:padding="5dp"
+                                     android:paddingBottom="5dp"
+                                     android:text="demo"
+                                     android:textSize="14sp" />
+                             </LinearLayout>
+                         </android.support.v7.widget.CardView>
+                     </LinearLayout>
+
+                 </LinearLayout>
+             </android.support.v7.widget.CardView>
+
+
+         </LinearLayout>
+     </ScrollView>
+ </LinearLayout>-->
+    <include layout="@layout/content_private_profile" />
+
+</LinearLayout>

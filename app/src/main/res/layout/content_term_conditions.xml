@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    android:background="@drawable/login_bg"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/activity_term_conditions">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".13"
+        android:gravity="top"
+        android:orientation="horizontal"
+        android:paddingTop="5dp"
+        android:weightSum="1">
+
+        <ImageView
+            android:contentDescription="@string/message_txt"
+            android:id="@+id/back_arrow_image"
+            android:layout_width="0dp"
+            android:layout_height="20dp"
+            android:layout_gravity="left|center"
+            android:layout_weight=".1"
+            android:visibility="gone"
+            android:layout_marginBottom="15dp"
+            android:src="@drawable/back_arrow" />
+
+        <ImageView
+            android:contentDescription="@string/message_txt"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/wl_logo_small" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="15dp"
+        android:background="#D5D5D5" />
+
+    <TextView
+        android:id="@+id/title_txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Privacy Policy"
+        android:textColor="@color/appColor"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#D5D5D5" />
+
+    <WebView
+        android:id="@+id/privacy_policy"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".8">
+
+    </WebView>
+
+</LinearLayout>

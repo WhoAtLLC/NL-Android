@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "734237560784",
+    "firebase_url": "https://wishlist-eccc0.firebaseio.com",
+    "project_id": "wishlist-eccc0",
+    "storage_bucket": "wishlist-eccc0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:734237560784:android:49a7772717a822d3",
+        "android_client_info": {
+          "package_name": "com.root.wishlist"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "734237560784-jp17ups1mi4j09ogh2ses73k653j2d4o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAHc_b3cC1EsJ6qz2V84HI0tNTlaKSc3rw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "734237560784-jp17ups1mi4j09ogh2ses73k653j2d4o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

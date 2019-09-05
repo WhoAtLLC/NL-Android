@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:background="@color/colorPrimary"
+        android:id="@+id/publicprofiletab"
+
+       >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="Public Profile"
+                android:textColor="@android:color/white"
+                android:textSize="16sp" />
+
+            <LinearLayout
+                android:id="@+id/submitbutton_click"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:padding="10dp">
+
+                <ImageView
+                    android:contentDescription="@string/message_txt"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:src="@drawable/thick" />
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true">
+
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/camera_imageset"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:background="@drawable/user_profile" />
+                </LinearLayout>
+
+                <ImageView
+                    android:contentDescription="@string/message_txt"
+                    android:id="@+id/imageclick"
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="35dp"
+                    android:layout_marginTop="35dp"
+                    android:src="@drawable/camera" />
+            </FrameLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_below="@+id/publicprofiletab">
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        <include layout="@layout/content_public_profile_edit" />
+        </ScrollView>
+
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/crop"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/crop__texture"
+        android:visibility="gone"
+
+        >
+
+
+        <com.theartofdev.edmodo.cropper.CropImageView
+            android:id="@+id/CropImageView"
+            android:layout_width="match_parent"
+            android:layout_height="1000dp"
+            android:layout_below="@+id/line"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="10dp" />
+
+        <Button
+            android:id="@+id/CropImageViewNo"
+            android:layout_width="155dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:text="NO"
+            android:background="@color/appColor"
+            android:textColor="#000000"
+            android:textSize="14dp"
+
+
+            />
+
+        <Button
+            android:id="@+id/CropImageView1"
+            android:layout_width="155dp"
+            android:layout_height="50dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:text="SAVE"
+            android:background="@color/appColor"
+            android:textColor="#000000"
+            android:textSize="14dp"
+
+            />
+
+        <LinearLayout
+            android:id="@+id/line"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/CropImageViewNo"
+            android:layout_marginTop="2dp"
+            android:background="#ffffff"
+            android:orientation="vertical" />
+    </RelativeLayout>
+
+</RelativeLayout>

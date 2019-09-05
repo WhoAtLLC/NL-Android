@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainlayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    android:weightSum="1"
+    tools:context="com.root.wishlist.activities.registration.YourBusinessInterest"
+    tools:showIn="@layout/content_your_business_interest">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".02"
+        android:background="#5B9EEC"></View>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".1"
+        android:background="#5B9EEC"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".9"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <ImageView
+                android:id="@+id/back_arrow_image"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:layout_weight=".1"
+                android:contentDescription="@string/message_txt"
+                android:src="@drawable/ic_arrow_back_white_24dp"
+                android:visibility="invisible" />
+
+            <TextView
+                android:id="@+id/setup_yourbusinessinterest_title"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".77"
+                android:gravity="center"
+                android:paddingBottom="10dp"
+                android:paddingRight="20dp"
+                android:text="@string/setupyourbusiness"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/coach_mark"
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_weight=".1"
+                android:contentDescription="@string/message_txt"
+                android:paddingBottom="10dp"
+                android:src="@drawable/question_white"
+                android:visibility="gone" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/heighlight_icon"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".1"
+            android:orientation="horizontal"
+            android:weightSum="5">
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="2dp"
+                android:layout_weight="1"
+                android:background="#F9D21b"></View>
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="2dp"
+                android:layout_weight="1"
+                android:background="#F9D21b"></View>
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="2dp"
+                android:layout_weight="1"
+                android:background="#F9D21b"></View>
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="2dp"
+                android:layout_weight="1"
+                android:background="#F9D21b"></View>
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="2dp"
+                android:layout_weight="1"
+                android:background="#000"></View>
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".9"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:id="@+id/frameLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:id="@+id/back_layout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:orientation="vertical">
+
+                <android.support.design.widget.TabLayout
+                    android:id="@+id/tablayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:background="#ECECEC"
+                    app:tabGravity="fill"
+                    app:tabIndicatorColor="@color/buttonColor"
+                    app:tabMaxWidth="0dp"
+                    app:tabMode="fixed"
+                    app:tabSelectedTextColor="@color/appColor"
+                    app:tabTextAppearance="@style/MyCustomTextAppearance"
+                    app:tabTextColor="@color/appColor">
+
+                </android.support.design.widget.TabLayout>
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <android.support.v4.view.ViewPager
+                        android:id="@+id/viewpager"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@android:color/white">
+
+                    </android.support.v4.view.ViewPager>
+
+                    <LinearLayout
+                        android:id="@+id/mybusiness_arrow"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_gravity="bottom"
+                        android:layout_marginBottom="20dp"
+                        android:gravity="bottom|center"
+                        android:orientation="horizontal"
+                        android:visibility="gone"
+                        >
+
+                        <ImageView
+                            android:id="@+id/right_arrow"
+                            android:layout_width="wrap_content"
+                            android:layout_height="40dp"
+                            android:contentDescription="@string/message_txt"
+                            android:src="@drawable/right" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/company_arrow"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_gravity="bottom"
+                        android:layout_marginBottom="20dp"
+                        android:gravity="bottom|center"
+                        android:orientation="horizontal"
+                        android:visibility="gone">
+
+                        <ImageView
+                            android:id="@+id/company_right_arrow"
+                            android:layout_width="wrap_content"
+                            android:layout_height="40dp"
+                            android:contentDescription="@string/message_txt"
+                            android:src="@drawable/left"
+
+                            />
+
+                        <ImageView
+                            android:id="@+id/company_left_arrow"
+                            android:layout_width="wrap_content"
+                            android:layout_height="40dp"
+                            android:contentDescription="@string/message_txt"
+                            android:src="@drawable/right"
+
+                            />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/total_arrow"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_gravity="bottom"
+                        android:layout_marginBottom="20dp"
+                        android:gravity="bottom|center"
+                        android:orientation="horizontal"
+                        android:visibility="gone">
+
+                        <ImageView
+                            android:id="@+id/toalleft_arrowleft_arrow"
+                            android:layout_width="wrap_content"
+                            android:layout_height="40dp"
+                            android:contentDescription="@string/message_txt"
+                            android:src="@drawable/left" />
+
+                        <TextView
+                            android:id="@+id/done"
+                            android:layout_width="70dp"
+                            android:layout_height="40dp"
+                            android:background="@drawable/continuebutton"
+                            android:gravity="center"
+                            android:text="Done"
+                            android:textColor="#FFF" />
+                    </LinearLayout>
+                </FrameLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearView"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:background="@color/buttonColor"
+                android:gravity="center_vertical"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <LinearLayout
+                    android:id="@+id/layoutButtons"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_horizontal"
+                    android:orientation="vertical"
+                    android:padding="10dp"
+                    android:visibility="gone">
+
+                    <!--
+                                        <LinearLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="35dp"
+                                            android:background="@drawable/round_edit"
+                                            android:orientation="horizontal"
+                                            android:weightSum="2">
+
+
+                                            <com.root.wishlist.util.MybusinessEdittext
+                                                android:id="@+id/search_Company"
+                                                android:layout_width="0dp"
+                                                android:layout_height="match_parent"
+                                                android:layout_weight="1.7"
+                                                android:background="@null"
+                                                android:gravity="center"
+                                                android:hint="Search Company"
+                                                android:textSize="14sp" />
+
+                                            <me.wangyuwei.loadingview.LoadingView
+                                                android:id="@+id/searchProgressBar"
+                                                android:layout_width="0dp"
+                                                android:layout_height="match_parent"
+                                                android:layout_gravity="right|center_vertical"
+                                                android:layout_marginRight="4dp"
+                                                android:layout_weight=".2"
+                                                android:visibility="gone"
+                                                lv:lv_duration="10"
+                                                lv:lv_end_color="@color/appColor"
+                                                lv:lv_external_radius="6dp"
+                                                lv:lv_internal_radius="1.5dp"
+                                                lv:lv_start_color="@color/appColor" />
+
+                                        </LinearLayout>
+                    -->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:orientation="vertical"
+                        android:weightSum="2">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1.9"
+                            android:background="@drawable/round_edit"
+                            android:gravity="center">
+
+                            <android.support.v7.widget.SearchView
+                                android:id="@+id/search_Company"
+                                android:layout_width="match_parent"
+                                android:layout_height="40dp"
+                                android:hint="Search Company"
+                                android:inputType="textNoSuggestions"
+                                android:textSize="14sp"></android.support.v7.widget.SearchView>
+                        </LinearLayout>
+
+                        <ProgressBar
+                            android:id="@+id/searchProgressBar"
+                            style="?android:attr/progressBarStyleHorizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight=".2"
+                            android:progressDrawable="@drawable/splash_progress_drawable"
+                            android:visibility="gone" />
+                    </LinearLayout>
+
+
+                    <ListView
+                        android:id="@+id/search_new_list"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:dividerHeight="1dp"
+                        tools:listitem="@layout/company_details">
+
+                    </ListView>
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

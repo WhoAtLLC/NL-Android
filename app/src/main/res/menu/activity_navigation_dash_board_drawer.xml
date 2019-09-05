@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:id="@+id/leads_grp"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/leadsModule"
+            android:icon="@drawable/bottomcomp"
+            android:title="Leads" />
+    </group>
+    <group
+        android:id="@+id/notifications_grp"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/notificationModule"
+            android:icon="@drawable/bottomnotification"
+            android:title="Notifications" />
+    </group>
+    <group
+        android:id="@+id/myaccount_grp"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/myaccountModule"
+            android:icon="@drawable/contact"
+            android:title="My Account" />
+    </group>
+    <group
+        android:id="@+id/more_grp"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/moreModule"
+            android:icon="@drawable/bottommore"
+            android:title="More" />
+    </group>
+
+
+</menu>

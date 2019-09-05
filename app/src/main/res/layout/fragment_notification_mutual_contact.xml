@@ -1,0 +1,42 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:lv="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.root.wishlist.fragment.notification.NotificationMutualContact">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/get_mutual_contact"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:divider="@null"
+            android:scrollbars="none"
+            tools:listitem="@layout/intromutualcontactlist">
+
+        </android.support.v7.widget.RecyclerView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="bottom"
+            android:orientation="vertical">
+
+            <me.wangyuwei.loadingview.LoadingView
+                android:id="@+id/loading_view"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:visibility="gone"
+                lv:lv_duration="10"
+                lv:lv_end_color="@color/appColor"
+                lv:lv_external_radius="15dp"
+                lv:lv_internal_radius="2dp"
+                lv:lv_start_color="@color/appColor" />
+        </LinearLayout>
+    </FrameLayout>
+
+</LinearLayout>

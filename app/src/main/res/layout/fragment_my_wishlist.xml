@@ -1,0 +1,31 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.root.wishlist.fragment.members.MyWishlistFragment">
+
+
+    <TextView
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:paddingLeft="15dp"
+        android:text="Companies"
+        android:textColor="#dcd9d9" />
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/memberlist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/username"
+        android:divider="@null"
+        android:dividerHeight="5dp"
+        android:scrollbars="none" />
+
+
+    <!--<include layout="@layout/requestmeeting_floatingbuttonlayout"/>-->
+</RelativeLayout>
+

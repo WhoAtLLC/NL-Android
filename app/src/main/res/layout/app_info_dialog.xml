@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/transparent"
+    android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="NiceLeads"
+            android:textColor="#000"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:visibility="visible"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:id="@+id/appInfoDetailsTV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Please add Host Url"
+            android:layout_margin="15dp"
+            android:textColor="#444444"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/enterTargetServerEt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:focusable="true"
+            android:hint="Enter Host Url"
+            android:inputType="text"
+            android:padding="5dp"
+            android:singleLine="true"
+            android:textColor="#464B4B"
+            android:textSize="14sp"
+            android:imeOptions="actionDone"
+            android:layout_marginHorizontal="20dp"
+            />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:orientation="horizontal"
+        android:layout_marginHorizontal="30dp"
+        android:weightSum="2"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp">
+        <TextView
+            android:id="@+id/cancelBtHostUrl"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+
+            android:padding="3dp"
+            android:gravity="center"
+            android:text="Cancel"
+            android:textColor="#5e9fec"
+            android:textSize="14sp"
+            />
+        <View
+            android:layout_width="1dp"
+            android:layout_height="wrap_content"
+            android:background="#CCC7C7"/>
+        <TextView
+            android:id="@+id/okBtHostUrl"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:padding="3dp"
+            android:gravity="center"
+            android:text="OK"
+            android:textColor="#5e9fec"
+            android:textSize="14sp"/>
+    </LinearLayout>
+
+    
+
+    </LinearLayout>

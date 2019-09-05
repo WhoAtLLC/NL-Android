@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#5B9EEC</color>
+    <color name="colorPrimary2">#5583b7</color>
+    <color name="colorPrimary1">#3F51B5</color>
+    <color name="colorPrimaryDark">#5B9EEC</color>
+    <color name="colorAccent">#000000</color>
+    <color name="colorAccent1">#FF4081</color>
+    <color name="appColor">#5B9EEC</color>
+    <color name="buttonColor">#FF9700</color>
+    <color name="selectcolor">#FF9700</color>
+    <color name="headermenu">#2B609E</color>
+    <color name="tabback">#4980BF</color>
+    <color name="white">#ffffff</color>
+    <color name="meet_select">#5E5E5D</color>
+    <color name="meet_back">#747474</color>
+    <color name="requesttomeet">#32CD32</color>
+    <color name="textwriting">#704B4B</color>
+    <color name="com_facebook_button_background_color_disabled">#7F7F7F</color>
+
+    <color name="greenStart">#ff33dd44</color>
+    <color name="greenMid">#ff0A8815</color>
+    <color name="greenEnd">#ff1da130</color>
+
+</resources>

@@ -1,0 +1,144 @@
+<resources>
+    <string name="app_name">NiceLeads</string>
+    <string name="newuser">New User</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="splashmessage">Save time networking with other</string>
+    <string name="splashmessage1">professionals who can really</string>
+    <string name="splashmessage2">help you in business.</string>
+    <string name="orlogin">or Login</string>
+    <string name="terms">Terms</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="upload_contact">Upload Contacts</string>
+    <string name="privatenetwork">Select Private Networking to\n Only Network with Your Friends or\n Members where You Know\n Someone in Common</string>
+    <string name="limitsyoursearch">Limits your search results but is your\n most trusted option as you will at least\n have common contacts with the other\n member you are networking with.</string>
+    <string name="privatenetworkmessage">Select this for your must trusted option.\nCan be modified any time in My Account.</string>
+    <string name="opennetwork">Select Open Networking\nfor the Most Results </string>
+    <string name="opennetworkoffer">Offers the greatest number of\nNetworking opportunities. but you might\n not know anyone in common with the\n contact owner</string>
+    <string name="setupyourbusiness">Setup Your Wishlist</string>
+    <string name="forgetpasswordmsg">Enter your email you registered\n with and we will send you an email to reset\nyour password.</string>
+    <string name="uploadcontact_msg1">NiceLead matches two users who\n can help each other in business\nbased on their address book.</string>
+    <string name="uploadcontact_msg2">Your real name is never revealed to\n the other member until you make\n or accept an intro request.</string>
+    <string name="uploadcontact_msg3">We never reach out to your contacts\nuntil you make a request and no\ncontact data is ever revealed or\nshared.</string>
+    <!--<string name="facebook_app_id">930413097093427</string>-->
+    <!--string name="facebook_app_id">359640054399464</string>-->
+    <string name="facebook_app_id">1158962907623724</string>
+
+   <!-- <string name="app_name">Twitter Login Demo</string>-->
+   -- <string name="twitter_CONSUMER_KEY">2MASKx45gvjtJpcZrCZwsRHjn</string>
+    <string name="twitter_CONSUMER_SECRET">w3QNKBhtFCnAD7V1rYvAs1VfrK4hoGQlMgzCXzAL358zUO7lm8</string>
+
+
+
+    <string name="title_activity_member_company_info">MemberCompanyInfoActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_member_company_details">MemberCompanyDetailsActivity</string>
+    <string name="title_activity_public_profile">PublicProfileActivity</string>
+    <string name="title_activity_publicprofile">PublicprofileActivity</string>
+    <string name="bio">Chief excutive officer of wind energy holding Co.Ltd. Science 1990.</string>
+    <string name="whatiwant_title">What I want to discuss</string>
+    <string name="whatiwant_discuss_description">I am CEO of Wind Energy and would like to talk sundar about a significant investment.</string>
+    <string name="title_activity_private_profile">PrivateProfileActivity</string>
+    <string name="title_activity_public_profile_edit">PublicProfileEditActivity</string>
+    <string name="title_activity_privateprofile_edit">PrivateprofileEditActivity</string>
+    <string name="title_activity_new_lead_sheet">NewLeadSheetActivity</string>
+    <string name="upload_contact_dialog">\"Nicelead\" Would like to\nAccess your Contacts</string>
+    <string name="contact_upload_msg">To save your time networking,\nNiceLead compares your contacts\nwith other members. No contact\ndata is ever displayed or shared\n through the app.</string>
+    <string name="select_allcompanies">Select all companies you\'d really like an intro to.</string>
+    <string name="public_networkingmessage">Select this for the most networking opportunities.\nCan be modified any time in My Account.</string>
+    <string name="title_activity_my_wish_list">MyWishListActivity</string>
+    <string name="title_activity_select_public_or_private_network">SelectPublicOrPrivateNetwork
+    </string>
+    <string name="title_activity_leads_your_connection_at">LeadsYourConnectionAtActivity</string>
+    <string name="connectionat">Your Connections At</string>
+
+    <string name="title_activity_term_conditions">TermConditions</string>
+    <string name="title_activity_privacy_policy">PrivacyPolicyActivity</string>
+    <string name="title_activity_member_tab_acitvity">MemberCompanyInfoActivity</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+
+    <string name="title_activity_get_interoduce_to">GetInteroduceToActivity</string>
+    <string name="title_activity_my_intro_request">MyIntroRequestActivity</string>
+    <string name="whydoyowant">Why you want the intro</string>
+    <string name="howyoycanhelp">How you can help in return</string>
+    <string name="title_activity_demo">Demo</string>
+    <string name="title_activity_invite_friends">Invite Friends</string>
+    <string name="invite_message">You\'re assigned a unique link to share.\nWe track invites and credit you\nautomatically when they join.</string>
+    <string name="title_activity_wnattomeet">Wnattomeet</string>
+    <string name="emailverification">For your security, you must verify\nyour email</string>
+    <string name="yoywegotemail">You\'ve got mail!</string>
+    <string name="perhaps">Perhaps you haven\'t seen it yet?</string>
+    <string name="verification_email">A verification email was sent to:</string>
+    <string name="emailpolicy">If you have a yucky IT policy and can\'t receive</string>
+    <string name="emailpolicy2">the email, please contact</string>
+    <string name="support_email">support@whoat.io.</string>
+    <string name="title_activity_emo">emo</string>
+    <string name="transition">transit</string>
+    <string name="title_activity_search">SearchActivity</string>
+    <string name="title_activity_member_company_details_new">MemberCompanyDetailsNew</string>
+    <string name="c">Material is the metaphor</string>
+    <string name="title_activity_serprofile_dialog_details">serprofile_dialog_details</string>
+    <string name="user_title">Add any geographices</string>
+    <string name="resonText">First, describe reason for the intro and\nwhat you are looking to accomplish</string>
+    <string name="title_activity_profile_details_dialog">ProfileDetailsDialog</string>
+    <string name="acceptmessage">Add a comment if desired. Your Private Profile info is shared, but not the contact data of the person you are introducing.</string>
+    <string name="declinemessage">(Optional) Add any comment You  like them to receive. Your real name will not be revealed.</string>
+    <string name="title_activity_dash_board">DashBoardActivity</string>
+    <string name="title_activity_navigation_dash_board">NavigationDashBoard</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="networkconnection">No internet connection</string>
+    <!--cropper-->
+    <string name="app_title">Image Cropper</string>
+    <string name="result_image_desc">crop result</string>
+
+    <string name="main_drawer_load">Load Image for cropping</string>
+    <string name="main_drawer_open">Open navigation drawer</string>
+    <string name="main_drawer_close">Close navigation drawer</string>
+
+    <string name="main_action_crop">CROP</string>
+    <string name="main_action_rotate">Rotate 90 degrees clockwise</string>
+    <string name="drawer_option_title">Crop View Presets</string>
+    <string name="drawer_option_oval">Circular</string>
+    <string name="drawer_option_rect">Rectangular</string>
+    <string name="drawer_option_min_max">Min/Max limits override</string>
+    <string name="drawer_option_customized_overlay">Customized Overlay</string>
+    <string name="drawer_option_scale_center">Scale Center Inside</string>
+    <string name="drawer_option_title2">Customization Toggles</string>
+    <string name="drawer_option_toggle_scale">Image Scale: %1s</string>
+    <string name="drawer_option_toggle_shape">Crop Shape: %1s</string>
+    <string name="drawer_option_toggle_guidelines">Guidelines: %1s</string>
+    <string name="drawer_option_toggle_aspect_ratio">Aspect Ratio: %1s</string>
+    <string name="drawer_option_toggle_auto_zoom">Auto zoom: %1s</string>
+    <string name="drawer_option_toggle_max_zoom">Max zoom level: %1s</string>
+    <string name="drawer_option_set_initial_crop_rect">Set initial crop rectangle</string>
+    <string name="drawer_option_reset_crop_rect">Reset crop rectangle to initial</string>
+    <string name="drawer_option_toggle_multitouch">Multitouch: %1s</string>
+    <string name="drawer_option_toggle_show_overlay">Show Overlay: %1s</string>
+    <string name="drawer_option_toggle_show_progress_bar">Show Progress Bar: %1s</string>
+    <string name="geography">Add any geographies, job titles or\ndepartments they prefer(optional)</string>
+    <string name="bummer">Bummer! No companies to show in you\nPrivate Network</string>
+    <string name="switch_network">Switch to Open Networking</string>
+    <string name="publicbio">Compelling bios increase your chance of networking with people who can actually help you. This is your public bio for all to see.</string>
+    <string name="userprofileimage">Profile image</string>
+    <string name="forward_arrow">Click</string>
+    <string name="message_txt" />
+    <string name="deletemessage">Are you want to sure to </string>
+    <string name="deletemessage1">Are you want to sure to ?</string>
+    <string name="leads_description">This is a feed of all companies\nyou can get an intro to. Start\nan intro request by selecting a\ncompany you\'d like an intro to.</string>
+    <string name="company">Companies</string>
+    <string name="connection_description">This is an indicator of how\nmany connection you have\nto a certain company.\n1 bar is weak -> 5 bar is\nstrons.></string>
+    <string name="company_description">Each company name links\nyou to a list of company\nemployees you can get an\nintro to based on your\nnetwork settings. Only the\nscreen name of the contact\nowner is displayed until they\nopt in, then their real name\nand Profile info is shared..</string>
+    <string name="more_description">Linkes to functions that\nimprove, modify or\npersonalize your WishList\nexperience.</string>
+    <string name="myaccount_description">Where you will find your\nProfile, Screen Name and\n other Settings to improve\nyour experience.</string>
+    <string name="notification_description">Notifications are where all\nincoming  and outgoing\nrequests and responses are\ndisplayed. Respond to an intro\nRequest here.</string>
+
+    <!-- For More Manage Groupes-->
+
+    <string name="managegropesmore"> Whoops! You have not been invited\n  to any groups yet</string>
+
+
+</resources>

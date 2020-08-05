@@ -260,7 +260,7 @@ public class SharedDatabase {
     }
 
     public String getTargetServer() {
-        return sharedPreferences.getString(this.KEY_TARGETSERVER, "http://wishlist.whoat.net/");
+        return sharedPreferences.getString(this.KEY_TARGETSERVER, "https://wishlist.whoat.net/");
     }
 
     public void setTargetServer(String targetServer) {

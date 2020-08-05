@@ -234,22 +234,22 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
 
         sharedDatabase.userEmail(userEmail.getText().toString());
         switch (message) {
-           /* case "contacts":
+           case "contacts":
                 startActivity(new Intent(getApplicationContext(), RegisterationUploadContact.class).putExtra("whoseCalling","syncContacts").setFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION | Intent.FLAG_ACTIVITY_CLEAR_TASK));
                 finish();
                 overridePendingTransition(0, 0);
-                break;*/
+                break;
 
             case "completed":
                 startActivity(new Intent(getApplicationContext(), LeadsActivity.class).setFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION | Intent.FLAG_ACTIVITY_CLEAR_TASK));
                 finish();
                 overridePendingTransition(0, 0);
                 break;
-        /*    case "companies":
+            case "companies":
                 startActivity(new Intent(getApplicationContext(), YourBusinessInterest.class).setFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION | Intent.FLAG_ACTIVITY_CLEAR_TASK));
                 finish();
                 overridePendingTransition(0, 0);
-                break;*/
+                break;
             case "INC":
                 noConnection();
                 // new AlertDialogBox(this).networkMessage("No Internet Connection!");

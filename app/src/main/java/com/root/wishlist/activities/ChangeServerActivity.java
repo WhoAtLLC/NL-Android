@@ -72,7 +72,7 @@ public class ChangeServerActivity extends AppCompatActivity implements RecyclerI
             else if(i==2)
             {
                 serverInfoList.add("Production");
-                serverUrlList.add("http://wishlist.whoat.net/");
+                serverUrlList.add("https://wishlist.whoat.net/");
             }
             else {
                 serverInfoList.add("Dev "+i);
